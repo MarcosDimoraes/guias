@@ -112,7 +112,7 @@ import { UsersPage } from '../users/users';
 </ion-header>
 	
 <ion-content padding>
-	<button ion-button [push]="userPage">Users</button>
+	<button ion-button [navPush]="userPage">Users</button>
 </ion-content>
 ```
 
